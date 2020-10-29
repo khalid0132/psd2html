@@ -1,0 +1,178 @@
+/*Media Query Starts*/
+
+/*For Extra Small Device starts*/
+@media (max-width: 575px){
+    #banner {
+	padding-top: 100px;
+	padding-bottom: 50px;
+    }
+    #banner h1 {
+	line-height: 33px;
+	font-size: 29px;
+    }
+    #download h1 {
+	padding-top: 46px;
+	font-size: 20px;
+	line-height: 20px;
+    }
+    #download .loading {
+	padding-bottom: 30px;
+    }
+    #download h1 {
+	padding-top: 35px;
+	font-size: 18px;
+	line-height: 15px;
+    }
+    #download h3 {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 10px;
+	line-height: 15px;
+}
+    #team {
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+    .navbar-nav {
+    background: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    padding-left: 0;
+}
+    .navbar-expand-lg .navbar-nav .nav-link {
+	padding-left: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+    .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #e84545; 
+}
+  #banner p {
+	font-size: 15px;
+      line-height: 20px;
+	padding: 10px 90px 20px;
+	/* padding-left: 90px; */
+	/* padding-right: 90px; */
+	/* padding-top: 45px; */
+	/* padding-bottom: 85px; */
+}
+    #boss::before {
+	display: none;
+}
+    #boss{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+    #boss .sliding_item{
+	font-size: 20px;
+	/* line-height: center; */
+	text-align: center;
+}
+    #boss h4 {
+	font-size: 15px;
+}
+
+    #service .service_content p {
+	padding-top: 15px;
+	padding-bottom: 10px;
+    }
+}
+/*For Extra Small Device starts*/
+
+
+/*For  Small Device starts*/
+@media (min-width: 576px) and (max-width: 767px) {
+    #banner {
+	padding-top: 100px;
+	padding-bottom: 50px;
+    }
+    #banner h1 {
+	line-height: 33px;
+	font-size: 29px;
+    }
+    #download .loading {
+	padding-bottom: 30px;
+    }
+    #download h1 {
+	padding-top: 35px;
+	font-size: 18px;
+	line-height: 15px;
+    }
+    #download h3 {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 10px;
+	line-height: 15px;
+}
+    #team {
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+    .navbar-nav {
+    background: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    padding-left: 0;
+}
+    .navbar-expand-lg .navbar-nav .nav-link {
+	padding-left: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+    .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #e84545; 
+}
+  #banner p {
+	font-size: 15px;
+      line-height: 20px;
+	padding: 10px 90px 20px;
+	/* padding-left: 90px; */
+	/* padding-right: 90px; */
+	/* padding-top: 45px; */
+	/* padding-bottom: 85px; */
+}
+    #boss::before {
+	display: none;
+}
+    #boss{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+    #boss .sliding_item{
+	font-size: 20px;
+	/* line-height: center; */
+	text-align: center;
+}
+    #boss h4 {
+	font-size: 15px;
+}
+}
+/*For Small Device ends*/
+
+
+/*For Medium Device starts*/
+@media (min-width: 768px) and (max-width: 991px) {
+    #team {
+	padding-top: 50px;
+	padding-bottom: 50px;
+    }
+    #boss {
+	padding-top: 50px;
+	padding-bottom: 50px;
+    }
+    #boss .sliding_item{
+    text-align: center;
+    }
+    #footer .footer_top h4 {
+	padding-top: 25px;
+	padding-bottom: 5px;
+    }
+}
+/*For Medium Device ends*/
+
+
+/*For large Device starts*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/*For large Device ends*/
+
+/*Media Query Ends*/

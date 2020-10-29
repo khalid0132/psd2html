@@ -1,0 +1,539 @@
+/* ===== common css start ===== */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin: 0;
+  color: #343a40;
+}
+ul,
+ol,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+  color: #6c7279;
+}
+a,
+a:hover,
+a:active,
+a:focus,
+a:link {
+  text-decoration: none !important;
+  outline: none;
+}
+i,
+span,
+a {
+  display: inline-block;
+}
+img {
+  width: 100%;
+}
+h1 {
+  font-size: 55px;
+
+}
+h2 {
+  font-size: 34px;
+}
+h3 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 16px;
+}
+.btn1 {
+    border: 0;
+    font-weight: 600;
+    color: #fff;
+    background: #e84545;
+    text-transform: uppercase;
+    padding: 15px 54px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.btn1:hover {
+    background: #3a3e64;
+}.btn2 {
+    border: 0;
+    font-weight: 600;
+    color: #fff;
+    background: #e84545;
+    text-transform: uppercase;
+    padding: 15px 80px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.btn2:hover {
+    background: #3a3e64;
+}
+/* ===== common css ends ===== */
+/* ===== Nav css starts ===== */
+.navbar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 100;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.bg{
+    background: rgba(0, 0, 0, 0.71);
+}
+.navbar-brand img{
+    border-radius: 0;
+}
+.navbar-brand:hover img{
+    color: #e84545;
+}
+.nav-item .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 0.5rem;
+	padding-left: 2.5rem;
+}
+.nav-item .nav-link:hover {
+    color: #e84545;
+}
+button.navbar-toggler{
+    outline: none;
+}
+.navbar-toggler-icon{
+    color: #fff;
+    font-size: 25px;
+    transition: all linear .5s;
+}
+.navbar-toggler-icon:hover{
+    color: #e84545;
+}
+
+/* ===== nav css ends ===== */
+/* ===== banner css starts ===== */
+#banner{
+    background: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 255px;
+    padding-bottom: 155px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+#banner::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(43, 46, 74, 0.95);
+    z-index: -1;
+}
+#banner h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 71px;
+    font-size: 65px;
+    color: #ffffff;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-transform: uppercase;
+}
+#banner p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 33px;
+    font-size: 22px;
+    color: #ffffff;
+    padding: 45px 90px 75px;
+/*    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 45px;
+    padding-bottom: 85px;*/
+}
+#banner .banner_slider .slick-dots{
+    display: flex;
+    justify-content: center;
+}
+#banner .banner_slider .slick-dots li{
+    padding: 4px;
+}
+#banner .banner_slider .slick-dots li button{
+    border: 0;
+    background: transparent;
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    outline: 0;
+    opacity: .2;
+    transition: all linear .4s;
+    outline: 0;
+    
+}
+#banner .banner_slider .slick-dots li.slick-active button{
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+   
+}
+
+/* ===== banner css ends ===== */
+/* ===== service css starts ===== */
+#service .service_content{
+    text-align: center;
+    margin: 10px;
+}
+#service .service_content h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #2d3033;
+    text-transform: uppercase;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#service .service_content p{
+    color: #6c7279;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 35px;
+}
+#service .service_content img{
+    width: 60px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+/* ===== service css ends ===== */
+/* ===== photo css starts ===== */
+#photo{}
+#photo .photo_item{
+    position: relative;
+    overflow: hidden;
+}
+#photo .photo_item:hover::before{
+    width: 100%;
+}
+#photo .photo_item:hover::after{
+    width: 100%;
+}
+#photo .photo_item::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(232, 69, 69, 0.45);
+    padding-top: 90px; 
+    transition: all linear .4s;
+}
+#photo .photo_item::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(232, 69, 69, 0.45);
+    padding-top: 90px; 
+    transition: all linear .4s;
+}
+#photo .photo_item .overlay{
+    position: absolute;
+    bottom: -150px;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    /*background: rgba(232, 69, 69, 0.45);*/
+    padding-top: 90px; 
+    transition: all linear .4s;
+    transition-delay: .4s;
+    /*transition-duration: 1s;*/
+    transform: scale(0);
+    
+    z-index: 100;
+}
+#photo .photo_item:hover .overlay{
+    transform: scale(1);
+    bottom: 0;
+}
+#photo .photo_item .overlay h3{
+    color: #fff;
+    text-align: center;
+}
+#photo .photo_item .overlay p{
+    color: #fff;
+    text-align: center;
+}
+#photo .photo_item .overlay span{
+    color: #fff;
+    text-align: center;
+}
+.photo .photo_item span img{}
+/* ===== photo css ends ===== */
+/* ===== team css starts ===== */
+#team{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+#team .team_item h2{
+    padding-top: 20px;
+    font-weight: 400px;
+}
+#team .team_item .title{
+    padding-bottom: 10px;
+    color: red;
+    text-transform: uppercase;
+}
+#team .team_item p{
+    line-height: 22px;
+}
+#team .team_item .social_media {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#team .team_item .social_media li a{
+    width: 30px;
+    height: 30px;
+    border: 1ps solid gray;
+    background: #f5e6e6;
+    line-height: 30px;
+    text-align: center;
+    transition: all linear .4s;
+}
+#team .team_item .social_media li a:hover{
+    background: lightgray;
+}
+#team .team_item .social_media li a span:hover{
+    color: red;
+}
+/* ===== team css ends ===== */
+/* ===== Boss css starts ===== */
+#boss{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #53354a;
+    position: relative;
+    
+}
+#boss .boss_slider{
+    z-index: 400;
+}
+#boss .sliding_item h4{
+    color: #fff;
+}
+#boss .sliding_item p{
+    color: #fff;
+    padding-top: 25px;
+}
+#boss .boss_slider{
+   
+}
+#boss::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: url('../images/ceo.jpg') no-repeat center/cover;
+}
+#boss::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .3;
+   
+    
+}
+#boss .slick-dots{
+   display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#boss .slick-dots li{
+    
+    padding: 2px;
+}
+#boss .slick-dots li button{
+   border: 0;
+    background: transparent;
+    font-size: 0;
+    width: 15px;
+    height: 5px;
+    background: white;
+    border-radius: 10px;
+    opacity: .2;
+    outline: 0;
+    transition: all linear .4s;
+}
+#boss .slick-dots li.slick-active button{
+    opacity: 1;
+    width: 25px;
+}
+/* ===== Boss css ends ===== */
+/* ===== Download css starts ===== */
+#download{
+    text-align: center;
+}
+#download h1{
+    padding-top: 100px;
+    color: #2d3033;
+    font-family:'Raleway', sans-serif;
+    font-size: 28px;
+    line-height: 21px;
+}
+#download h3{
+    padding-top: 15px;
+    padding-bottom: 40px;
+    color: #2d3033;
+    font-family:'Raleway', sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 700px;
+    text-transform: uppercase;
+}
+#download .loading {
+    padding-bottom: 100px;
+}
+/* ===== Download css ends ===== */
+/*Footer CSS starts*/
+#footer{
+    background: #3a3e64;
+   
+ 
+}
+#footer .footer_top{
+    
+    
+    text-transform: uppercase;
+    text-align: center;
+}
+#footer .footer_top h4{
+    padding-top: 60px;
+    padding-bottom: 22px;
+    font-size: 14px;
+    color: #fff;
+}
+#footer .row p{
+    font-size: 14px;
+    color: darkgray;
+    text-align: center;
+    line-height: 22.5px;
+    padding-bottom: 60px;
+}
+#footer .row ul{
+    font-size: 12px;
+    color: white;
+    
+   
+}
+#footer .social_media{
+    display: flex;
+    justify-content: center;
+    
+}
+#footer .row ul li {
+    float: left;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 6px;
+
+   
+}
+#footer .footer_bottom{
+    background: #313454;
+    margin-top: 20px;
+}
+#footer .footer_bottom .love{
+    color: red;
+}
+#footer .footer_bottom .name a{
+    color: white;
+}
+#footer .bottom_content{
+    padding-top: 30px;
+   
+}
+#footer .bottom_content p{
+    padding-bottom: 30px;
+}
+/*Footer CSS ends*/
+.back2top{
+    width: 40px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    position: fixed;
+    font-size: 25px;
+    bottom: 50px;
+    right: 30px;
+    z-index: 500;  
+    transition: all linear .5s;
+    display: none;
+}
+.back2top:hover{
+    color: #e84545;
+    background: blue;
+}
+
